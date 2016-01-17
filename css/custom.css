@@ -1,0 +1,237 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+.offwhite {
+  background-color: #F3F2F1;
+}
+
+a {
+  color: #F50738;
+}
+
+a:hover {
+  color: #F6365F;
+}
+
+.overlay span {
+  bottom:auto;
+  top:10px;
+  font-size: 16px;
+}
+.section {
+  padding: 50px 0;
+}
+.site-name-and-slogan {
+  margin-top: 10px;
+}
+.skills {
+  width: 80%;
+}
+
+.left-float {
+
+}
+
+.cg-progress {
+  height:10px;
+}
+
+.cg-desig {
+    background-color: #55acee;
+}
+
+.social-links li a {
+  color: #ffffff;
+}
+
+.social-links li {
+  font-size: 20px
+}
+
+.banner-caption {
+  bottom: 0%;
+  top:auto;
+}
+
+/*Colors */
+
+.progress-bar {
+  background-color: #231882;
+}
+
+.main-navigation .navbar-default .navbar-nav > li.active > a {
+  color:#F50738;
+}
+
+.banner-caption {
+  background-color: rgba(0,0,0,0.6);
+}
+
+.main-navigation .navbar-default .navbar-nav > li > a:hover, .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
+  color:#F50738;
+}
+
+.social-links-container {
+  text-align: right;
+}
+
+/*.main-navigation .navbar-default .navbar-nav > li > a {
+  color:#000000;
+}*/
+
+.header {
+  background-color: rgba(0,0,0,0);
+}
+
+.fixed-header-on .header{
+  background-color: rgba(255,255,255,0.9);
+}
+
+.site-name a {
+  display:none;
+}
+
+.fixed-header-on .site-name a{
+  display:block;
+  color: #F6365F;
+  text-decoration: none;
+}
+
+.btn-default {
+  background-color: #F6365F;
+  color:#ffffff;
+}
+
+.btn-default:hover {
+	color: #ffffff;
+	background-color: #F86383;
+	border-color: #F86383;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.btn-light {
+  background-color: inherit;
+}
+
+.isotope-item .btn-light {
+  color:#000000;
+  font-weight:400;
+}
+
+.nav-pills > li > a {
+  color:#000000;
+  font-weight:400;
+}
+
+.btn-light:hover {
+  background-color: #231882;
+  border-color: #231882;
+  color:#ffffff;
+}
+
+.cg-card:hover .btn-light {
+  background-color: #231882;
+  border-color: #231882;
+  color:#ffffff;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .nav-pills > li > a:hover {
+    background-color: #231882;
+    border-color: #231882;
+    color: #ffffff;
+}
+
+.modal-header {
+  background-color:#231882;
+}
+
+
+/* Font weights : http://paletton.com/#uid=1080u0kpJw0fMJwl2Bbv8sTwqmk */
+h1 {
+  font-weight:500;
+}
+
+.progress-bar span {
+  font-weight: 600;
+}
+
+.main-navigation .navbar-default .navbar-nav > li > a {
+  font-weight: 500;
+  color:#000000
+}
+
+.banner:after {
+  background-color: rgba(0,0,0,0);
+}
+
+.cg-proj-banner {
+  display: block;
+  color: rgb(0,0,0);
+  text-decoration:none;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  vertical-align: middle;
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+.cg-proj-banner div a {
+  display: block;
+  color: rgb(0,0,0);
+  text-decoration: none;
+  padding:0px 5px;
+
+}
+
+.cg-proj-banner div a:hover, .cg-proj-back li a:hover{
+  color:#F50738;
+  background-color: #ffffff;
+  font-weight:400;
+}
+.cg-proj-header {
+  margin-top: 58px;
+  padding:3% 0%;
+  background-color: #231882;
+  color:#ffffff;
+}
+
+.cg-proj-header h1 {
+  color:#ffffff;
+  font-size: 60px;
+}
+.cg-proj-back li a {
+  font-weight: 500;
+  color: #000000;
+}
+
+.cg-nav {
+  background-color: rgba(255, 255, 255, 0.8);;
+}
+
+@media only screen and (max-width: 720px) {
+  .header {
+    background-color: #ffffff;
+  }
+
+  .site-name {
+    font-size: 20px;
+  }
+
+  .site-name a {
+    display:inherit;
+    color:#000000;
+  }
+
+  .banner-caption h1 {
+      font-size: 40px;
+  }
+}
