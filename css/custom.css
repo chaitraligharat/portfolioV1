@@ -59,6 +59,19 @@ a:hover {
   top:auto;
 }
 
+.progress-bar {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.lead {
+  font-weight: 400;
+}
+
+.image-center{
+  margin:auto;
+}
+
 /*Colors */
 
 .progress-bar {
@@ -185,17 +198,17 @@ h1 {
 }
 
 .cg-proj-banner div a {
+  font-weight: 500;
   display: block;
   color: rgb(0,0,0);
   text-decoration: none;
   padding:0px 5px;
-
 }
 
 .cg-proj-banner div a:hover, .cg-proj-back li a:hover{
   color:#F50738;
   background-color: #ffffff;
-  font-weight:400;
+  font-weight:500;
 }
 .cg-proj-header {
   margin-top: 58px;
@@ -211,10 +224,11 @@ h1 {
 .cg-proj-back li a {
   font-weight: 500;
   color: #000000;
+  font-size: 18px;
 }
 
 .cg-nav {
-  background-color: rgba(255, 255, 255, 0.8);;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 @media only screen and (max-width: 720px) {

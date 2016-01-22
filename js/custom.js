@@ -6,3 +6,10 @@
  * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
  * File Description: Place here your custom scripts
  */
+
+ (function($){
+ 	$(document).ready(function(){
+   $("#banner-image-pixup").backstretch('images/pixUp/pixUpProto.jpg');
+   $("#banner-image-explorify").backstretch('images/explorify/explorify_title.jpg');
+  }); // End document ready
+})(this.jQuery);
