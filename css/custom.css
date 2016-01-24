@@ -6,7 +6,14 @@ Version:1.0.0
 Created:November 2014
 License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
 File Description: Place here your custom CSS styles
+
+//Old blue : 231882
 */
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
 .offwhite {
   background-color: #F3F2F1;
 }
@@ -75,7 +82,7 @@ a:hover {
 /*Colors */
 
 .progress-bar {
-  background-color: #231882;
+  background-color: #A2A2A5;
 }
 
 .main-navigation .navbar-default .navbar-nav > li.active > a {
@@ -103,7 +110,7 @@ a:hover {
 }
 
 .fixed-header-on .header{
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(2,0,0,0.8);
 }
 
 .site-name a {
@@ -146,25 +153,25 @@ a:hover {
 }
 
 .btn-light:hover {
-  background-color: #231882;
-  border-color: #231882;
+  background-color: #3F3C7F;
+  border-color: #3F3C7F;
   color:#ffffff;
 }
 
 .cg-card:hover .btn-light {
-  background-color: #231882;
-  border-color: #231882;
+  background-color: #3F3C7F;
+  border-color: #3F3C7F;
   color:#ffffff;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .nav-pills > li > a:hover {
-    background-color: #231882;
-    border-color: #231882;
+    background-color: #3F3C7F;
+    border-color: #3F3C7F;
     color: #ffffff;
 }
 
 .modal-header {
-  background-color:#231882;
+  background-color:#3F3C7F;
 }
 
 
@@ -179,7 +186,7 @@ h1 {
 
 .main-navigation .navbar-default .navbar-nav > li > a {
   font-weight: 500;
-  color:#000000
+  color:#ffffff;
 }
 
 .banner:after {
@@ -188,7 +195,7 @@ h1 {
 
 .cg-proj-banner {
   display: block;
-  color: rgb(0,0,0);
+  color: #fff;
   text-decoration:none;
   font-size: 24px;
   font-family: 'Raleway', sans-serif;
@@ -200,20 +207,21 @@ h1 {
 .cg-proj-banner div a {
   font-weight: 500;
   display: block;
-  color: rgb(0,0,0);
+  color: #fff;
   text-decoration: none;
   padding:0px 5px;
 }
 
 .cg-proj-banner div a:hover, .cg-proj-back li a:hover{
   color:#F50738;
-  background-color: #ffffff;
   font-weight:500;
+  background-color: inherit;
 }
+
 .cg-proj-header {
   margin-top: 58px;
   padding:3% 0%;
-  background-color: #231882;
+  background-color: #3F3C7F;
   color:#ffffff;
 }
 
@@ -223,17 +231,21 @@ h1 {
 }
 .cg-proj-back li a {
   font-weight: 500;
-  color: #000000;
+  color: #ffffff;
   font-size: 18px;
 }
 
 .cg-nav {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(34, 34, 34, 0.8);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
 }
 
 @media only screen and (max-width: 720px) {
   .header {
-    background-color: #ffffff;
+    background-color: rgba(34,34,34,0.8);
   }
 
   .site-name {
@@ -242,7 +254,7 @@ h1 {
 
   .site-name a {
     display:inherit;
-    color:#000000;
+    color:#ffffff;
   }
 
   .banner-caption h1 {

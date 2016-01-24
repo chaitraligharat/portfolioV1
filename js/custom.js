@@ -9,7 +9,7 @@
 
  (function($){
  	$(document).ready(function(){
-   $("#banner-image-pixup").backstretch('images/pixUp/pixUpProto.jpg');
+   $("#banner-image-pixup").backstretch('images/pixUp/pixupProto.jpg');
    $("#banner-image-explorify").backstretch('images/explorify/explorify_title.jpg');
   }); // End document ready
 })(this.jQuery);
