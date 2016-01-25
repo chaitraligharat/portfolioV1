@@ -11,5 +11,6 @@
  	$(document).ready(function(){
    $("#banner-image-pixup").backstretch('images/pixup/pixUpProto.jpg');
    $("#banner-image-explorify").backstretch('images/explorify/explorify_title.jpg');
+   $("#banner-image-smartlid").backstretch('images/smartlid/smartlid_title.jpg');
   }); // End document ready
 })(this.jQuery);
