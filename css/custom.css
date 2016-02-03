@@ -11,7 +11,7 @@ File Description: Place here your custom CSS styles
 */
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato Light', sans-serif;
 }
 
 .offwhite {
@@ -86,7 +86,7 @@ a:hover {
 }
 
 .main-navigation .navbar-default .navbar-nav > li.active > a {
-  color:#F50738;
+  color:#F6365F;
 }
 
 .banner-caption {
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .main-navigation .navbar-default .navbar-nav > li > a:hover, .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-  color:#F50738;
+  color:#F6365F;
 }
 
 .social-links-container {
@@ -213,7 +213,7 @@ h1 {
 }
 
 .cg-proj-banner div a:hover, .cg-proj-back li a:hover{
-  color:#F50738;
+  color:#F6365F;
   font-weight:500;
   background-color: inherit;
 }
