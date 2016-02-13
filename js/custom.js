@@ -14,6 +14,15 @@
    $("#banner-image-smartlid").backstretch('images/smartlid/smartlid_title.jpg');
   $("#banner-image-3m").backstretch('images/3M/3M_title.jpg');
   }); // End document ready
+
+  $(window).load(function() {
+    $('.design=container').fadeIn();
+    var $container = $('.design-container').isotope({
+      itemSelector: '.design-item',
+      layoutMode: 'masonry',
+      transitionDuration: '0.6s',
+      filter: "*"
+    });
 })(this.jQuery);
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
