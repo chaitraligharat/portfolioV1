@@ -219,13 +219,13 @@ h1 {
 }
 
 .cg-proj-header {
-  margin-top: 58px;
   padding:3% 0%;
   background-color: #3F3C7F;
   color:#ffffff;
 }
 
 .cg-proj-header h1 {
+	margin-top: 58px;
   color:#ffffff;
   font-size: 60px;
 }
